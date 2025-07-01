@@ -3,7 +3,7 @@ import {insightsData} from "../arrayObjects/arrayObjects"
 
 function Insights() {
   return (
-    <main className="max-w-7xl mx-auto px-6 py-20">
+    <section id='insights' className="max-w-7xl mx-auto px-6 py-20">
       <header className="text-center max-w-3xl mx-auto mb-16">
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-wide">
           Insights &nbsp;
@@ -30,7 +30,7 @@ function Insights() {
           </article>
         ))}
       </section>
-    </main>
+    </section>
   )
 }
 
