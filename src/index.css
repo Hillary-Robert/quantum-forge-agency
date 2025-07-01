@@ -13,3 +13,8 @@
   color-scheme: dark;
 
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

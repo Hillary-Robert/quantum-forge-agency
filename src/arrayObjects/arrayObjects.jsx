@@ -7,12 +7,20 @@ import {
   Activity,
 } from "lucide-react";
 
+
+import user1 from "../assets/profile-pictures/user1.jpg";
+import user2 from "../assets/profile-pictures/user2.jpg";
+import user3 from "../assets/profile-pictures/user3.jpg";
+import user4 from "../assets/profile-pictures/user4.jpg";
+import user5 from "../assets/profile-pictures/user5.jpg";
+import user6 from "../assets/profile-pictures/user6.jpg";
+
 export const navItems = [
-  { label: "Services", href: "#" },
-  { label: "Solutions", href: "#" },
-  { label: "Insights", href: "#" },
-  { label: "Clients", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "Services", href: "#services" },
+  { label: "Solutions", href: "#solutions" },
+  { label: "Insights", href: "#insights" },
+  { label: "Prices", href: "#prices" },
+  { label: "Testimonial", href: "#testimonial" },
 ];
 
 
@@ -112,6 +120,48 @@ export const pricingOptions = [
   },
 ];
 
+
+export const testimonials = [
+  {
+    user: "Alexander Reed",
+    company: "NovaCore Labs",
+    image: user1,
+    text: "Partnering with this agency elevated our entire infrastructure. Their deep tech expertise and proactive approach set them apart.",
+  },
+  {
+    user: "Sophia Martinez",
+    company: "Aether AI",
+    image: user2,
+    text: "From strategy to deployment, the team delivered flawlessly. They truly understand how to build scalable, intelligent systems.",
+  },
+  {
+    user: "Liam Chen",
+    company: "Stratus Edge",
+    image: user3,
+    text: "Their engineering team is brilliant. We saw a 300% performance boost after integrating their microservices architecture.",
+  },
+  {
+    user: "Amira Khalid",
+    company: "Quantify.io",
+    image: user4,
+    text: "They brought clarity to our product roadmap, and executed with precision. We consider them an extension of our own team.",
+  },
+  {
+    user: "Noah Walker",
+    company: "Cortex Cloud",
+    image: user5,
+    text: "Their DevOps solutions helped us automate deployments and save hours every sprint. We recommend them with full confidence.",
+  },
+  {
+    user: "Isabelle Fontaine",
+    company: "ZenithNet",
+    image: user6,
+    text: "Impressed by their ability to balance cutting-edge tech with clean, maintainable code. A true technology partner.",
+  },
+];
+
+
+
 export const resourcesLinks = [
   { href: "#", text: "Case Studies" },
   { href: "#", text: "Whitepapers" },
@@ -120,5 +170,59 @@ export const resourcesLinks = [
   { href: "#", text: "API Docs" },
 ];
 
+export const platformLinks = [
+  { href: "#", text: "Our Tech Stack" },
+  { href: "#", text: "Engineering Blog" },
+  { href: "#", text: "Infrastructure" },
+  { href: "#", text: "Integrations" },
+  { href: "#", text: "Changelog" },
+];
 
+export const communityLinks = [
+  { href: "#", text: "Developer Network" },
+  { href: "#", text: "Tech Meetups" },
+  { href: "#", text: "Contributors Program" },
+  { href: "#", text: "Open Source Projects" },
+  { href: "#", text: "Careers" },
+];
+
+
+export const insightsData = [
+  {
+    title: "Scaling Dev Tools for Growth",
+    excerpt: "Learn how to optimize your engineering stack to support rapid user growth and maintain high performance.",
+    date: "July 1, 2025",
+    link: "#",
+  },
+  {
+    title: "Why Reliability Matters in Production",
+    excerpt: "Discover best practices for building reliable systems that minimize downtime and increase user trust.",
+    date: "June 20, 2025",
+    link: "#",
+  },
+  {
+    title: "The Future of Cloud Engineering",
+    excerpt: "Explore emerging trends in cloud-native development and how they impact software delivery.",
+    date: "June 5, 2025",
+    link: "#",
+  },
+  {
+    title: "DevOps Automation Techniques",
+    excerpt: "Step up your deployment pipeline with automation tools that save time and reduce errors.",
+    date: "May 28, 2025",
+    link: "#",
+  },
+  {
+    title: "Building Secure APIs",
+    excerpt: "A practical guide to designing APIs with security as a priority from day one.",
+    date: "May 15, 2025",
+    link: "#",
+  },
+  {
+    title: "Monitoring and Observability",
+    excerpt: "Gain insights on monitoring your applications to proactively address issues before users do.",
+    date: "May 1, 2025",
+    link: "#",
+  },
+]
 
