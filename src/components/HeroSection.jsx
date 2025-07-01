@@ -1,6 +1,8 @@
 import React from "react";
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
+import img2 from "../assets/video2.png";
+import img1 from "../assets/video1.png";
 
 function HeroSection() {
   return (
@@ -42,9 +44,13 @@ function HeroSection() {
 
       <div className="flex flex-col md:flex-row mt-10 justify-center gap-6 animate-fade-in-up opacity-0 animate-delay-700">
         <video
+
+          preload="metadata"
+          poster={img1}
           autoPlay
           loop
           muted
+          playsInline
           className="rounded-lg w-full md:w-1/2 border border-blue-800 shadow-blue-800 mx-2 my-4 transform transition duration-500 hover:shadow-xl animate-float-slow"
         >
           <source src={video1} type="video/mp4" />
@@ -53,8 +59,10 @@ function HeroSection() {
 
         <video
           autoPlay
+          poster={img2}
           loop
           muted
+          playsInline
           className="rounded-lg w-full md:w-1/2 border border-blue-800 shadow-blue-800 mx-2 my-4 transform transition duration-500 hover:shadow-xl animate-float-slow delay-150"
         >
           <source src={video2} type="video/mp4" />
