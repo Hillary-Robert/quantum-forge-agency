@@ -4,7 +4,7 @@ import video2 from '../assets/video2.mp4'
 
 function HeroSection() {
   return (
-    <div className="flex flex-col items-center mt-6 lg:mt-20">
+    <header className="flex flex-col items-center mt-6 lg:mt-20 px-4">
 
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide 
         animate-fade-in-up opacity-0 animate-delay-100">
@@ -50,7 +50,7 @@ function HeroSection() {
         </video>
       </div>
 
-    </div>
+    </header>
   )
 }
 
